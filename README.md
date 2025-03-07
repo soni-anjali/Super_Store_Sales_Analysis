@@ -31,6 +31,7 @@ This project is a **Superstores Sales Analysis** dashboard built using **Power B
 ### Page 2: Sales Forecast
 - **Line Chart**: Forecasts **Superstore Sales** for the next **15 days**
 - **Bar Chart**: Displays **Sales by Region**
+- **DAX Query**: To Forecaste Sales **SalesForecast = SUMMARIZE('SuperStore_Sales_Dataset',SuperStore_Sales_Dataset[Order Date],"Total Sales",SUM(SuperStore_Sales_Dataset[Sales]))**
 
 ## How to Use
 1. Open the Power BI dashboard file.
